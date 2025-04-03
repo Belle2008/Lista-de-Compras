@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To do List</h1>
+    <div class="content">
+        <div class="content--add--item">
+            <input type="text" id="input-new-task" placeholder="Digite sua nova task">
+            <button onclick="newtask()" id="btn-new-task" title="Clique aqui para adicionar uma nova task">
+                <img src="./adicionar.png" alt="Add Task">
+            </button>
+        </div>
+
+        <div class="content--body">
+            <ol id="to-do-list">
+              
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
