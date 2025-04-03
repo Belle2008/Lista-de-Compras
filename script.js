@@ -15,7 +15,7 @@ function newtask() {
 
     // Cria o botão "OK" para marcar a tarefa como concluída
     const button = document.createElement('button');
-    button.textContent = "OK";
+    button.textContent = "x";
     button.onclick = function() {
         newTask.remove(); // Remove a tarefa ao clicar no botão
     };
